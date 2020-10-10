@@ -1,14 +1,41 @@
 <html>
   <head>
 
+<link rel="stylesheet" type="text/css" href="/CSS/plp-custom-style.css">
   </head>
     
     <body>
-     <header id="header"></header>
-     <h1>Product Landing Page</h1>
-     <img id="header-img" src="">
     
-     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+     <header id="header">
+     <img id="header-img" src="https://www.snackandbakery.com/ext/resources/images/IngBriefs/2017-05/Suntheanine-logo.jpg?1493667474">
+     <nav id="nav-bar">
+      <a class="nav-link" href="#learn-more">Learn More</a>
+      <a class="nav-link" href="#request-coupon">Request Coupon</a>
+      <a class="nav-link" href="#buy-on-amazon">Buy on Amazon</a>
+      </nav>
+     </header>
+     
+     <section id="learn-more">
+       <h1>Suntheanine pure form L-Theanine</h1>
+       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yq-dpvkvVBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </section>
+     
+     <section id="request-coupon">
+       <form id="form" action="https://www.freecodecamp.com/email-submit">
+         <input id="email" type="email" placeholder="you@whatever.com" name="email"></input>
+         <input id="submit" type="submit"></button>
+       </form>
+     </section>
+
+    <section id="buy-on-amazon">
+      <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
+    </section>
+     
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
-  
