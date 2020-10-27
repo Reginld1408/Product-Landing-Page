@@ -1,38 +1,24 @@
 <html>
   <head>
-   <style>
-    #header-img {
-    width: 150px;
-      }
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
 
-    @media only screen and (max-width: 768px) {
+<link rel="stylesheet" type="text/css" href="C:\Users\Scott\Desktop\CSS\plp-custom-style.css">
+  <style>
+     
+     @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
-    width: 100%;
-     }
+      width: 100%;
     }
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+</style>
 
-   .flex-container {
-   display: flex;
-    }
 
-   body {
-   font-family: sans-serif;
-    }
- </style>
 </head>
     
     <body>
@@ -47,9 +33,14 @@
      </header>
      
      <section id="learn-more">
+       
        <h1>Suntheanine pure form L-Theanine</h1>
-       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yq-dpvkvVBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     </section>
+       
+      
+       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yq-dpvkvVBE"></iframe>
+     
+
+      </section>
      
      <section id="request-coupon">
        <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -66,7 +57,53 @@
       </div>
     </section>
      
-    
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
+
+
+CSS
+
+
+
+#header-img {
+    width: 150px;
+    text-align: center;
+    
+    }
+
+    h1 {
+  text-align: center;
+    }
+ 
+   
+
+    /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+
+   body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+ .nav-link {
+padding: 20px;
+margin: 20px;
+text-align: center;
+}
+
+
+
+
