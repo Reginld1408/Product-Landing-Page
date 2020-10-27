@@ -64,21 +64,13 @@
 
 CSS
 
-
-
-#header-img {
-    width: 150px;
-    text-align: center;
-    
-    }
-
-    h1 {
+body {
+  font-family: sans-serif;
   text-align: center;
-    }
+}
  
    
-
-    /* For desktop: */
+  /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -93,16 +85,22 @@ CSS
   .col-12 {width: 100%;}
   
 
-   body {
-    font-family: sans-serif;
-    text-align: center;
-  }
-
  .nav-link {
 padding: 20px;
 margin: 20px;
 text-align: center;
 }
+
+#header-img {
+  width: 150px;
+  text-align: center;
+  
+  }
+
+  h1 {
+text-align: center;
+  }
+
 
 
 
