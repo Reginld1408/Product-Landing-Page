@@ -28,7 +28,7 @@
      <nav id="nav-bar">
       <a class="nav-link" href="#learn-more">Learn More</a>
       <a class="nav-link" href="#request-coupon">Request Coupon</a>
-      <a class="nav-link" href="#buy-on-amazon">Buy on Amazon</a>
+      <a class="nav-link" href="#buy-on-amazon">Buy at Online Store</a>
       </nav>
      </header>
      
@@ -43,6 +43,8 @@
       </section>
      
      <section id="request-coupon">
+
+      <h2>Request a Coupon</h2>
        <form id="form" action="https://www.freecodecamp.com/email-submit">
          <input id="email" type="email" placeholder="you@whatever.com" name="email"></input>
          <input id="submit" type="submit"></button>
@@ -51,13 +53,30 @@
 
     <section id="buy-on-amazon">
       <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+        <div><a href="https://www.amazon.ca/s?k=Suntheanine&ref=nb_sb_noss_2">Buy on Amazon</a></div>
+        <div><a href="https://www.suntheanine.com/what-is-suntheanine/">Buy on Suntheanine Website</a></div>
+        <div><a href="https://www.nutrichem.com/products/suntheanine">Buy on Nutrichem</a></div>
       </div>
     </section>
      
      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script>
+    
+      window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  console.log("scroll triggered")
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+    </script>
+    
     </body>
 </html>
 
@@ -69,6 +88,10 @@ body {
   text-align: center;
 }
  
+section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
    
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -91,16 +114,38 @@ margin: 20px;
 text-align: center;
 }
 
+.flex-container > div {
+  
+  width: 200px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 14px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+
 #header-img {
   width: 150px;
+  top: 0;
   text-align: center;
   
   }
 
+#buy-on-amazon{
+  background-color: #79abcd;
+}
+
   h1 {
 text-align: center;
   }
-
 
 
 
