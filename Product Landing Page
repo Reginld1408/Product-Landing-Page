@@ -1,8 +1,7 @@
 <html>
   <head>
 
-<link rel="stylesheet" type="text/css" href="C:\Users\Scott\Desktop\CSS\plp-custom-style.css">
-  <style>
+ <style>
      
      @media only screen and (max-width: 768px) {
     /* For mobile phones: */
