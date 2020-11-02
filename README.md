@@ -1,3 +1,3 @@
 # Product-Landing-Page
 
-My Product Landing Page for Free Code Camp CSS/HTML Projects
+This is a Product Landing Page for Suntheanine for my coding portfolio.
