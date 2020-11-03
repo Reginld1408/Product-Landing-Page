@@ -117,9 +117,9 @@ text-align: center;
 
     <section id="buy-on-amazon">
       <div class="flex-container">
-        <div><a href="https://www.amazon.ca/s?k=Suntheanine&ref=nb_sb_noss_2">Buy on Amazon</a></div>
-        <div><a href="https://www.suntheanine.com/what-is-suntheanine/">Buy on Suntheanine Website</a></div>
-        <div><a href="https://www.nutrichem.com/products/suntheanine">Buy on Nutrichem</a></div>
+        <div><a href="https://www.amazon.ca/s?k=Suntheanine&ref=nb_sb_noss_2" target="_blank">Buy on Amazon</a></div>
+        <div><a href="https://www.suntheanine.com/what-is-suntheanine/" target="_blank">Buy on Suntheanine Website</a></div>
+        <div><a href="https://www.nutrichem.com/products/suntheanine" target="_blank">Buy on Nutrichem</a></div>
       </div>
     </section>
      
